@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fb;
+    color: #2c2c2c;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1e1e1e;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .btn-signup {
+    background: #ff6e40;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 80px;
+  }
+  
+  .hero-text {
+    max-width: 50%;
+  }
+  
+  .hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text h1 span {
+    color: #ff6e40;
+  }
+  
+  .hero-text p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+  .btn-primary {
+    background: #ff6e40;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+  
+  .hero-image img {
+    width: 400px;
+  }
+  
+  .stay-home {
+    display: flex;
+    align-items: center;
+    padding: 80px;
+    gap: 50px;
+  }
+  
+  .stay-home .image img {
+    width: 300px;
+  }
+  
+  .stay-home .text h2 {
+    font-size: 32px;
+  }
+  
+  .stay-home .text h2 span {
+    color: #ff6e40;
+  }
+  
+  .btn-secondary {
+    background: #ff6e40;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+  }
+    
